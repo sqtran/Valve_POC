@@ -1,0 +1,10 @@
+<jboss-web>
+	<context-root>valvewebapp</context-root>
+	<valve>
+		<class-name>com.att.tai.SampleValve</class-name>
+		<param>
+			<param-name>customMessage</param-name>
+			<param-value>Hello, my name is Simon, and I like to do drawings.</param-value>
+		</param>
+	</valve>
+</jboss-web>
